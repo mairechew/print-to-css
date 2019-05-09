@@ -1,0 +1,49 @@
+$white: #FFF;
+$pink: #D65C7F;
+$turquoise: #51A3A3;
+
+body {
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: $white;
+  color: $white;
+  height: 100%;
+}
+
+.mag_container {
+  display: grid;
+  grid-template-areas: 
+    " left right "
+    " left right "
+}
+
+.mag_left {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  * {
+    flex-grow: 1;
+  } 
+  
+  .mag_left_top {
+    background-color: $pink;
+    font-size: 5rem;
+  }
+  
+  .mag_left_bottom {
+    background-color: $turquoise;
+  }
+}
+
+.mag_right {
+  grid-area: right;
+  background-color: $turquoise
+}
+
+@media (max-width: 700px) {
+  .mag_container {
+      grid-template-areas: 
+        " left left"
+        " right right "
+  }
+}

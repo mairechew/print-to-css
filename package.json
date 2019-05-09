@@ -1,0 +1,20 @@
+{
+  "name": "print-to-css",
+  "version": "1.0.0",
+  "description": "100 magazine layouts rebuilt as if they were responsive web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mairechew/print-to-css.git"
+  },
+  "keywords": [],
+  "author": "Maire Chew <mairechew@gmail.com> (https://mairechew.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mairechew/print-to-css/issues"
+  },
+  "homepage": "https://github.com/mairechew/print-to-css#readme"
+}
